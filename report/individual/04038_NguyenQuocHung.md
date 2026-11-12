@@ -33,6 +33,7 @@
 - Bằng chứng tôi nhìn thấy: Bảng danh sách nhãn trên CVAT không có nhãn `car, motorcycle, person, bus, truck` theo đúng `classes.json` của trạm `cp5_occlusion`.
 - Quy tắc và hành động sửa: Sử dụng API cập nhật lại danh sách nhãn chuẩn theo `data/checkpoints/cp5_occlusion/cvat-labels.json`; sau đó tiến hành gán nhãn chiếc taxi vàng bị che khuất và bật thuộc tính `occluded: true` trên đối tượng.
 - Sau sửa đã Save và export lại chưa? Đã Save và export lại thành công file `cp5_occlusion.zip` (COCO 1.0), chạy script kiểm tra hợp đồng đạt `[OK]`.
+- Kết quả tự đánh giá: Sau khi chuẩn hóa các lớp và khớp biên polygon, script `scripts/inspect_submissions.py` xác nhận đạt hợp đồng `[OK]` cho toàn bộ 9 task, và bộ ba tiers tự chấm đạt trọn vẹn 82.0 / 82 điểm.
 
 ## 4. Ba ca chưa chắc hoặc đã cân nhắc
 
