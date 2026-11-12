@@ -2,7 +2,7 @@
 
 - Mã học viên theo lớp: 04038
 - Ngày / CVAT local: 12/11/2026 / http://localhost:8080
-- Công cụ đã dùng: CVAT Local, Polygon, Brush 2px, CVAT REST API
+- Công cụ đã dùng: CVAT Local, Polygon, Brush 2px
 
 ## 1. Bài đã nộp
 
